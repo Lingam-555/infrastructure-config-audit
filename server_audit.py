@@ -136,7 +136,7 @@ def process_servers(servers,baseline):
 
 def print_report(results):
 
-    print("==== CONFIGURATION AUDIT ====")
+    print("==== SERVER CONFIGURATION AUDIT ====")
     for result in results["results"]:
         if result["status"] == "NON-COMPLIANT":
             logging.warning(f"Server {result["server"]} is {result["status"]}")
