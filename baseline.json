@@ -1,0 +1,7 @@
+{
+    "ssh_port": 22,
+    "ntp_server": "10.10.10.10",
+    "dns_server": "8.8.8.8",
+    "firewall": "enabled",
+    "password_auth": "disabled"
+}
