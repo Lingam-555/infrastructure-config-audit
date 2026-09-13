@@ -171,7 +171,7 @@ def main():
 
     result = process_servers(servers,baseline)
     print_report(result)
-    print("Audit completed successfully")
+    print("Configuration audit finished")
     
 if __name__=="__main__":
     main()
