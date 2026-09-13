@@ -171,6 +171,7 @@ def main():
 
     result = process_servers(servers,baseline)
     print_report(result)
+    print("Audit completed successfully")
     
 if __name__=="__main__":
     main()
