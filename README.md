@@ -1,5 +1,9 @@
 # Infrastructure Configuration Audit Tool
 
+## Author
+
+Infrastructure automation learning project.
+
 ## Overview
 
 The Infrastructure Configuration Audit Tool compares server configurations against a defined baseline and detects configuration drift.
