@@ -48,3 +48,20 @@ It identifies missing configurations, mismatched values, and unexpected extra co
 
 ```bash
 python3 server_audit.py
+
+## Sample Output
+
+```text
+==== SERVER CONFIGURATION AUDIT ====
+
+Server: web-01
+Status: COMPLIANT
+
+Server: db-01
+Status: NON-COMPLIANT
+MISMATCH: ssh_port expected=22 actual=2222
+
+==== AUDIT SUMMARY ====
+Total Servers: 2
+Compliant: 1
+Non-Compliant: 1
